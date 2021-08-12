@@ -2,7 +2,7 @@
 
 `gotestsum` runs tests using `go test --json`, prints formatted test output, and a summary of the test run.
 It is designed to work well for both local development, and for automation like CI.
-`gotest.tools/gotestsum/testjson` ([godoc](https://pkg.go.dev/gotest.tools/gotestsum/testjson)) is a library
+`github.com/johnrichardrinehart/gotestsum/testjson` ([godoc](https://pkg.go.dev/github.com/johnrichardrinehart/gotestsum/testjson)) is a library
 that can be used to read [`test2json`](https://golang.org/cmd/test2json/) output.
 
 See [documentation](#documentation).
@@ -10,7 +10,7 @@ See [documentation](#documentation).
 ## Install
 
 Download a binary from [releases](https://github.com/gotestyourself/gotestsum/releases), or build from
-source with `go get gotest.tools/gotestsum`.
+source with `go get github.com/johnrichardrinehart/gotestsum`.
 
 ## Demo
 A demonstration of three `--format` options.
@@ -138,12 +138,12 @@ TESTS_TOTAL             # number of tests run
 To get more details about the test run, such as failure messages or the full list of failed
 tests, run `gotestsum` with either a `--jsonfile` or `--junitfile` and parse the
 file from the post-run-command. The
-[gotestsum/testjson](https://pkg.go.dev/gotest.tools/gotestsum/testjson?tab=doc)
+[gotestsum/testjson](https://pkg.go.dev/github.com/johnrichardrinehart/gotestsum/testjson?tab=doc)
 package may be used to parse the JSON file output.
 
 **Example: desktop notifications**
 
-First install the example notification command with `go get gotest.tools/gotestsum/contrib/notify`.
+First install the example notification command with `go get github.com/johnrichardrinehart/gotestsum/contrib/notify`.
 The command will be downloaded to `$GOPATH/bin` as `notify`. Note that this
 example `notify` command only works on macOS with
 [terminal-notifer](https://github.com/julienXX/terminal-notifier) installed.
@@ -355,9 +355,9 @@ gotestsum --watch --format testname
 
 ## Development
 
-[![Godoc](https://godoc.org/gotest.tools/gotestsum?status.svg)](https://pkg.go.dev/gotest.tools/gotestsum?tab=subdirectories)
+[![Godoc](https://godoc.org/github.com/johnrichardrinehart/gotestsum?status.svg)](https://pkg.go.dev/github.com/johnrichardrinehart/gotestsum?tab=subdirectories)
 [![CircleCI](https://circleci.com/gh/gotestyourself/gotestsum/tree/main.svg?style=shield)](https://circleci.com/gh/gotestyourself/gotestsum/tree/main)
-[![Go Reportcard](https://goreportcard.com/badge/gotest.tools/gotestsum)](https://goreportcard.com/report/gotest.tools/gotestsum)
+[![Go Reportcard](https://goreportcard.com/badge/github.com/johnrichardrinehart/gotestsum)](https://goreportcard.com/report/github.com/johnrichardrinehart/gotestsum)
 
 Pull requests and bug reports are welcome! Please open an issue first for any
 big changes.

@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"gotest.tools/gotestsum/log"
-	"gotest.tools/gotestsum/testjson"
+	"github.com/johnrichardrinehart/gotestsum/log"
+	"github.com/johnrichardrinehart/gotestsum/testjson"
 )
 
 // JUnitTestSuites is a collection of JUnit test suites.

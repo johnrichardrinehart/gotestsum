@@ -11,10 +11,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/johnrichardrinehart/gotestsum/log"
 	"github.com/jonboulle/clockwork"
 	"github.com/pkg/errors"
 	"golang.org/x/sync/errgroup"
-	"gotest.tools/gotestsum/log"
 )
 
 // Action of TestEvent

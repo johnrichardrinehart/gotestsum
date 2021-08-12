@@ -112,7 +112,7 @@ var expectedExecution = &Execution{
 			action:  ActionFail,
 			running: map[string]TestCase{},
 		},
-		"gotest.tools/gotestsum/internal/empty": {
+		"github.com/johnrichardrinehart/gotestsum/internal/empty": {
 			action: ActionPass,
 		},
 	},
@@ -218,7 +218,7 @@ var expectedCoverageExecution = &Execution{
 	started: time.Now(),
 	errors:  []string{"internal/broken/broken.go:5:21: undefined: somepackage"},
 	packages: map[string]*Package{
-		"gotest.tools/gotestsum/testjson/internal/good": {
+		"github.com/johnrichardrinehart/gotestsum/testjson/internal/good": {
 			Total: 18,
 			Skipped: []TestCase{
 				{Test: "TestSkipped"},
@@ -228,7 +228,7 @@ var expectedCoverageExecution = &Execution{
 			coverage: "coverage: 0.0% of statements",
 			running:  map[string]TestCase{},
 		},
-		"gotest.tools/gotestsum/testjson/internal/stub": {
+		"github.com/johnrichardrinehart/gotestsum/testjson/internal/stub": {
 			Total: 28,
 			Failed: []TestCase{
 				{Test: "TestFailed"},
@@ -244,7 +244,7 @@ var expectedCoverageExecution = &Execution{
 			coverage: "coverage: 0.0% of statements",
 			running:  map[string]TestCase{},
 		},
-		"gotest.tools/gotestsum/testjson/internal/badmain": {
+		"github.com/johnrichardrinehart/gotestsum/testjson/internal/badmain": {
 			action:  ActionFail,
 			running: map[string]TestCase{},
 		},

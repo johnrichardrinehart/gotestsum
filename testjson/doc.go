@@ -19,4 +19,4 @@ prints the number of tests run.
     fmt.Println("Ran %d tests", exec.Total())
 
 */
-package testjson // import "gotest.tools/gotestsum/testjson"
+package testjson // import "github.com/johnrichardrinehart/gotestsum/testjson"

@@ -6,10 +6,10 @@ import (
 	"os"
 	"os/exec"
 
+	"github.com/johnrichardrinehart/gotestsum/internal/junitxml"
+	"github.com/johnrichardrinehart/gotestsum/log"
+	"github.com/johnrichardrinehart/gotestsum/testjson"
 	"github.com/pkg/errors"
-	"gotest.tools/gotestsum/internal/junitxml"
-	"gotest.tools/gotestsum/log"
-	"gotest.tools/gotestsum/testjson"
 )
 
 type eventHandler struct {

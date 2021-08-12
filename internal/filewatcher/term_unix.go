@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/johnrichardrinehart/gotestsum/log"
 	"golang.org/x/sys/unix"
-	"gotest.tools/gotestsum/log"
 )
 
 type terminal struct {

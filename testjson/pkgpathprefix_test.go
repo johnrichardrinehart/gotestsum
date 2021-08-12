@@ -8,7 +8,7 @@ import (
 )
 
 func TestRelativePackagePath(t *testing.T) {
-	prefix := "gotest.tools/gotestsum/testjson"
+	prefix := "github.com/johnrichardrinehart/gotestsum/testjson"
 	defer patchPkgPathPrefix(prefix)()
 	relPath := RelativePackagePath(prefix + "/extra/relpath")
 	assert.Equal(t, relPath, "extra/relpath")
@@ -20,10 +20,10 @@ func TestRelativePackagePath(t *testing.T) {
 func TestGetPkgPathPrefix(t *testing.T) {
 	t.Run("with go path", func(t *testing.T) {
 		skip.If(t, isGoModuleEnabled())
-		assert.Equal(t, getPkgPathPrefix(), "gotest.tools/gotestsum/testjson")
+		assert.Equal(t, getPkgPathPrefix(), "github.com/johnrichardrinehart/gotestsum/testjson")
 	})
 	t.Run("with go modules", func(t *testing.T) {
 		skip.If(t, !isGoModuleEnabled())
-		assert.Equal(t, getPkgPathPrefix(), "gotest.tools/gotestsum")
+		assert.Equal(t, getPkgPathPrefix(), "github.com/johnrichardrinehart/gotestsum")
 	})
 }

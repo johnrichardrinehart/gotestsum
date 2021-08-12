@@ -7,9 +7,9 @@ import (
 
 	"github.com/dnephin/pflag"
 	"github.com/google/shlex"
+	"github.com/johnrichardrinehart/gotestsum/internal/junitxml"
+	"github.com/johnrichardrinehart/gotestsum/testjson"
 	"github.com/pkg/errors"
-	"gotest.tools/gotestsum/internal/junitxml"
-	"gotest.tools/gotestsum/testjson"
 )
 
 type hideSummaryValue struct {

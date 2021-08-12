@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"gotest.tools/gotestsum/cmd"
-	"gotest.tools/gotestsum/cmd/tool/slowest"
+	"github.com/johnrichardrinehart/gotestsum/cmd"
+	"github.com/johnrichardrinehart/gotestsum/cmd/tool/slowest"
 )
 
 // Run one of the tool commands.

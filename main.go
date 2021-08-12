@@ -4,9 +4,9 @@ import (
 	"os"
 	"os/exec"
 
-	"gotest.tools/gotestsum/cmd"
-	"gotest.tools/gotestsum/cmd/tool"
-	"gotest.tools/gotestsum/log"
+	"github.com/johnrichardrinehart/gotestsum/cmd"
+	"github.com/johnrichardrinehart/gotestsum/cmd/tool"
+	"github.com/johnrichardrinehart/gotestsum/log"
 )
 
 func main() {

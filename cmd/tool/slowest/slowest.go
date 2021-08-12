@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/dnephin/pflag"
-	"gotest.tools/gotestsum/internal/aggregate"
-	"gotest.tools/gotestsum/log"
-	"gotest.tools/gotestsum/testjson"
+	"github.com/johnrichardrinehart/gotestsum/internal/aggregate"
+	"github.com/johnrichardrinehart/gotestsum/log"
+	"github.com/johnrichardrinehart/gotestsum/testjson"
 )
 
 // Run the command

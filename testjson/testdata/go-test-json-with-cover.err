@@ -1,2 +1,2 @@
-# gotest.tools/gotestsum/testjson/internal/broken
+# github.com/johnrichardrinehart/gotestsum/testjson/internal/broken
 internal/broken/broken.go:5:21: undefined: somepackage

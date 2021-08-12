@@ -12,9 +12,9 @@ import (
 
 	"github.com/dnephin/pflag"
 	"github.com/fatih/color"
+	"github.com/johnrichardrinehart/gotestsum/log"
+	"github.com/johnrichardrinehart/gotestsum/testjson"
 	"github.com/pkg/errors"
-	"gotest.tools/gotestsum/log"
-	"gotest.tools/gotestsum/testjson"
 )
 
 var version = "dev"

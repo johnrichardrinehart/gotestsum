@@ -707,6 +707,6 @@
        testjson/internal/badmain 
     🖴  testjson/internal/good ···↷↷·············
   20ms testjson/internal/stub ···↷↷✖·✖····✖··✖············
-       gotest.tools/gotestsum/internal/empty 
+       github.com/johnrichardrinehart/gotestsum/internal/empty 
 
  46 tests, 4 skipped, 5 failures, 1 error

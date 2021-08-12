@@ -9,8 +9,8 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"gotest.tools/gotestsum/internal/dotwriter"
-	"gotest.tools/gotestsum/internal/text"
+	"github.com/johnrichardrinehart/gotestsum/internal/dotwriter"
+	"github.com/johnrichardrinehart/gotestsum/internal/text"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/golden"

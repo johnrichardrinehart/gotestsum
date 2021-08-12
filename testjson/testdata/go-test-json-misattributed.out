@@ -30,6 +30,6 @@
 {"Action":"pass","Test":"TestOutputWithSubtest/sub_test2"}
 {"Action":"fail","Test":"TestOutputWithSubtest"}
 {"Action":"output","Output":"FAIL\n"}
-{"Action":"output","Output":"FAIL\tgotest.tools/gotestsum/foo\t0.001s\n"}
+{"Action":"output","Output":"FAIL\tgithub.com/johnrichardrinehart/gotestsum/foo\t0.001s\n"}
 {"Action":"output","Output":"FAIL\n"}
 {"Action":"fail"}

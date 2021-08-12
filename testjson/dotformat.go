@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/johnrichardrinehart/gotestsum/internal/dotwriter"
+	"github.com/johnrichardrinehart/gotestsum/log"
 	"golang.org/x/term"
-	"gotest.tools/gotestsum/internal/dotwriter"
-	"gotest.tools/gotestsum/log"
 )
 
 func dotsFormatV1(event TestEvent, exec *Execution) (string, error) {

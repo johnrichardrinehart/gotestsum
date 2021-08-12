@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"gotest.tools/gotestsum/internal/text"
+	"github.com/johnrichardrinehart/gotestsum/internal/text"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/env"
 	"gotest.tools/v3/fs"

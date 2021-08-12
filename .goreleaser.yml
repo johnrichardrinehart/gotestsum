@@ -17,7 +17,7 @@ builds:
       - arm64
       - arm
     env: [CGO_ENABLED=0]
-    ldflags: ["-s -w -X gotest.tools/gotestsum/cmd.version={{.Version}}"]
+    ldflags: ["-s -w -X github.com/johnrichardrinehart/gotestsum/cmd.version={{.Version}}"]
 
 checksum:
   name_template: '{{ .ProjectName }}-{{ .Version }}-checksums.txt'
